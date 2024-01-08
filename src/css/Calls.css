@@ -1,0 +1,73 @@
+.calls-container .archive-calls-container {
+  margin: 10px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.calls-container .archive-calls-container img {
+  width: 7%;
+  margin-right: 10px;
+}
+
+.calls-container .archive-calls-container h4 {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.calls-container h4 {
+  position: relative;
+  text-align: center;
+  color: gray;
+}
+
+.calls-container h4::before {
+  content: "";
+  display: block;
+  border-top: 3px dotted gray;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: -2;
+}
+
+.calls-container h4 span {
+  background-color: #fdfdfc;
+  padding: 0 5px;
+}
+
+.calls-container .call-card {
+  margin: 10px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.calls-container .call-card img {
+  width: 5%;
+  margin-right: 10px;
+}
+
+.calls-container .call-card .call-time {
+  margin-left: auto;
+  margin-right: 5px;
+  color: gray;
+  border-left: 2px dotted gray;
+  padding-left: 5px;
+}
+
+.calls-container .call-card .call-am_pm {
+  border: 1px solid gray;
+  padding: 5px;
+  color: gray;
+  font-weight: bold;
+}

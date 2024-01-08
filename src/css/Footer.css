@@ -1,0 +1,22 @@
+footer {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 10px 0;
+}
+
+footer .phone {
+  border-bottom: 4px solid #07fb07;
+}
+
+footer .keypad {
+  background-color: #07fb07;
+  padding: 10px;
+  border-radius: 50%;
+}

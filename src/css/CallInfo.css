@@ -1,0 +1,84 @@
+.call-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-info-container .person img {
+  height: 9rem;
+}
+
+.call-info-container .person h4 {
+  margin: 0 0 5px 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.call-info-container .person h5 {
+  margin: 0 0 20px 0;
+  color: gray;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+.call-info-container .call-info-icons img {
+  height: 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.call-info-container > h4 {
+  align-self: flex-start;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.call-info-container .call-history {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.call-info-container .call-history img {
+  height: 1.5rem;
+  /* Setting Margin instead of the call-history div so that the whole thing does no go out of bound*/
+  margin: 0 1rem;
+}
+
+.call-info-container .call-history .call-type h4 {
+  font-size: 1rem;
+  margin: 0 0 5px 0;
+}
+
+.call-info-container .call-history .call-type h5 {
+  font-size: 0.6rem;
+  margin: 0;
+  color: gray;
+  font-weight: normal;
+}
+
+.call-info-container .call-history .call-duration {
+  margin-left: auto;
+  padding-right: 1rem;
+  color: gray;
+  border-left: 2px dotted gray;
+  padding-left: 1rem;
+  font-weight: normal;
+}
+
+.call-info-container .call-info-archive-btn {
+  width: 30%;
+  background-color: white;
+  color: red;
+  padding: 10px;
+  margin-top: 2rem;
+}
+
+.call-info-container .call-info-archive-btn:hover {
+  cursor: pointer;
+}
